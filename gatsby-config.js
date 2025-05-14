@@ -14,13 +14,6 @@ module.exports = {
     siteUrl: `https://yourdomain.com`,
   },
   plugins: [
-    `gatsby-plugin-mdx`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/src/posts`,
-      },
-    },
+   
   ],
 };
