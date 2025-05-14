@@ -10,6 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Tech Blog`,
+    author: "Yvonne Tran",
     siteUrl: `https://yourdomain.com`,
   },
   plugins: [
