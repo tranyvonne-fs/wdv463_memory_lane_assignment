@@ -1,0 +1,27 @@
+---
+title: "Learning Postman for API Testing"
+date: "2025-05-13"
+slug: "learning-postman-api-testing"
+---
+
+Postman has become one of my favorite tools for testing APIs.
+
+When I was working on a project that involved CRUD operations using Node.js, Express, and MongoDB, Postman helped me simulate requests and debug responses. It allowed me to interact with my API without needing to build a frontend first.
+
+Here’s how I used Postman during development:
+
+### 🔍 Testing Endpoints
+I used **GET**, **POST**, **PUT**, and **DELETE** methods to:
+- Create new records
+- Fetch all or individual records
+- Update data
+- Delete entries
+
+Each request was customizable. I could pass in headers, query parameters, and a JSON body with just a few clicks.
+
+### ✅ Writing Tests
+Postman also lets you write JavaScript-based test scripts. I created basic tests like:
+```javascript
+pm.test("Status code is 200", function () {
+  pm.response.to.have.status(200);
+});
