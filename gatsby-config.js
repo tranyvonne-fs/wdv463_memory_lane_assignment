@@ -9,12 +9,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Tech Blog`,
+    title: `Memory Lane Blog`,
     author: "Yvonne Tran",
     siteUrl: `https://yourdomain.com`,
   },
   plugins: [
-    `gatsby-plugin-postcss`,
     `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
