@@ -37,6 +37,11 @@ export default function HomePage() {
             className="block bg-white p-6 shadow-lg rounded-lg hover:bg-indigo-600 hover:text-white transition">
             📦 Deploying to Multiple Platforms
           </Link>
+          <Link
+            to="/password-hashing"
+            className="block bg-white p-6 shadow-lg rounded-lg hover:bg-indigo-600 hover:text-white transition">
+            🔒 Password Hashing
+          </Link>
         </div>
       </div>
     </main>
