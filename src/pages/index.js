@@ -33,7 +33,7 @@ export default function HomePage() {
             ⚙️ React API Best Practices
           </Link>
           <Link
-            to="/deploying-to-multiple-platforms"
+            to="/deploying-multiple-platforms"
             className="block bg-white p-6 shadow-lg rounded-lg hover:bg-indigo-600 hover:text-white transition">
             📦 Deploying to Multiple Platforms
           </Link>
