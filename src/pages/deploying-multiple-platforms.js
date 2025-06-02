@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import platformImage from "../images/deploy-multiple-platform"
+import platformImage from "../images/deploy-multiple-platform.png"
 
 export default function DeployingPlatformsPage() {
   return (
